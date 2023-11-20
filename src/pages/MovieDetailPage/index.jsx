@@ -13,6 +13,7 @@ const MovieDetailPage = ({ movies }) => {
 
   return (
     <div>
+   
           <h2>{movie.title}</h2>
           <p>Release Date:{movie.releaseDate}</p>
       <img src={movie.posterPath} alt={`${movie.title}poster`} />
