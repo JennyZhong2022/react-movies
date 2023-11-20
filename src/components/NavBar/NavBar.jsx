@@ -5,8 +5,6 @@ const NavBar = () => {
     <nav>
       <Link to='/' >Movie List</Link>
       &nbsp; |  &nbsp;
-      <Link to="/movies/:movieName" >Movie Details </Link>
-      &nbsp; |  &nbsp;
       <Link to="/actors" > Actor List</Link>
     </nav>
   )
